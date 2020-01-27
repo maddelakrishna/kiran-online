@@ -1,0 +1,15 @@
+package classessandobjects;
+
+public class Employee {
+	// data or properties or instance variables
+	private int eid;
+	private String name;
+	private double salary;
+	
+	// method
+	public void calculateSalary(double bonus)
+	{
+		salary = salary +bonus;
+	}
+
+}

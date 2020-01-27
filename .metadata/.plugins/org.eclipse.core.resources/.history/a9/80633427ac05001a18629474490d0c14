@@ -1,0 +1,67 @@
+package classessandobjects;
+
+public class Employee {
+	// data or properties or instance variables
+	private int eid;
+	private String name;
+	private double salary;
+	
+	public Employee()
+	{
+		
+	}
+	// parameterized
+	
+	public Employee(int eid)
+	{
+		this.eid  = eid;
+	}
+	
+	
+	public Employee(int eid,String name)
+	{
+		this.eid = eid;
+		this.name = name;
+	}
+	
+	
+	public Employee(int eid,String name,double salary)
+	{
+		
+		this(eid,name);  
+		this.salary = salary;
+		
+	}
+	
+	
+	// method
+	
+	// get data from outside
+	public int getEid()
+	{
+		return eid;
+	}
+	
+	public String getName()
+	{
+		return name;
+	}
+	
+	public double getSalary()
+	{
+		return salary;
+	}
+	// set the data from outside
+	// visibily, lifetime
+	public void setEid(int eid)
+	{
+		this.eid = eid;
+	}
+	
+	public void calculateSalary(double bonus)
+	{
+		double hra;
+		salary = salary +bonus;
+	}
+
+}

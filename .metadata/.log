@@ -1,0 +1,154 @@
+!SESSION 2019-11-13 04:56:45.520 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=1.8.0_221
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY com.genuitec.eclipse.code.ui 1 0 2019-11-13 04:57:07.509
+!MESSAGE CodeMix Engine will be started momentarily to support development activities
+
+!ENTRY org.eclipse.ui 2 0 2019-11-13 04:57:08.947
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-11-13 04:57:08.947
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2019-11-13 04:57:10.262
+!MESSAGE A DevStyle Theme is being activated on this workspace; preparing colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2019-11-13 04:57:10.293
+!MESSAGE DevStyle has archived current color configurations to alternate preferences - will be restored when switching out of the DevStyle Theme
+
+!ENTRY org.eclipse.jface 2 0 2019-11-13 04:57:12.199
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-11-13 04:57:12.199
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@52813ba4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@62291850,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-11-13 04:57:23.575
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Krishna kumar'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-11-13 04:57:35.358
+!MESSAGE Initializing CodeMix Engine's settings file at D:\onlinetraining\kiran\.metadata\codemix.code-workspace
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-11-13 04:57:35.384
+!MESSAGE Verifying CodeMix Engine runtime integrity...
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-11-13 04:57:35.396
+!MESSAGE IntegrityCheck: Artifacts located at: [C:\Users\Krishna kumar\.p2\pool\artifacts.xml]
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-11-13 04:57:35.457
+!MESSAGE Integrity check PASSED
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-11-13 04:57:35.764
+!MESSAGE CodeMix Engine engine has been started
+
+!ENTRY org.eclipse.ui 2 2 2019-11-13 04:57:47.925
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 05:03:44.727
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 05:03:44.755
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@26a9a09a[org.springframework.tooling.boot.ls:1.11.0.201909171347(id=1083)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 05:03:44.845
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 05:03:44.968
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 05:03:46.342
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 05:03:46.372
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@26a9a09a[org.springframework.tooling.boot.ls:1.11.0.201909171347(id=1083)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 05:03:46.396
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 05:03:53.868
+!MESSAGE Boot LS startup time from start to initialized: 7455ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 05:03:53.955
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.bZnVfjjkisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 05:03:53.976
+!MESSAGE subscribing to classpath changes: sts4.classpath.bZnVfjjk isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 05:03:53.997
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 05:03:54.020
+!MESSAGE subsribers = {sts4.classpath.bZnVfjjk=Send Classpath Notifications(1014)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 05:03:54.033
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 05:03:54.048
+!MESSAGE project oop ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 05:03:54.058
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 05:03:54.068
+!MESSAGE Preparing classpath changed notification oop
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 05:03:54.077
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.bZnVfjjk => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 05:03:54.087
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 05:03:54.108
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 05:03:54.120
+!MESSAGE buffering callback sts4.classpath.bZnVfjjk oop false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 05:03:54.133
+!MESSAGE executing callback sts4.classpath.bZnVfjjk 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 05:03:54.192
+!MESSAGE executing callback sts4.classpath.bZnVfjjk SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-11-13 05:29:03.093
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-11-13 05:36:42.239
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY com.genuitec.eclipse.code.ui 1 0 2019-11-13 06:02:25.048
+!MESSAGE CodeMix licensing has expired; removing non-primary CodeMix editors
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 08:05:46.920
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.bZnVfjjk
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 08:05:46.936
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.bZnVfjjk
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 08:05:46.951
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 08:05:46.967
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.bZnVfjjk => OK

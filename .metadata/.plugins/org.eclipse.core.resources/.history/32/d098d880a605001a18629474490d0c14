@@ -1,0 +1,26 @@
+package classessandobjects;
+
+public class Employee {
+	// data or properties or instance variables
+	private int eid;
+	private String name;
+	private double salary;
+	
+	// method
+	
+	// get data from outside
+	public int getEid()
+	{
+		return eid;
+	}
+	
+	// set the data from outside
+	
+	
+	
+	public void calculateSalary(double bonus)
+	{
+		salary = salary +bonus;
+	}
+
+}

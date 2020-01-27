@@ -1,0 +1,12 @@
+package classessandobjects;
+
+public class EmpDemo {
+
+	public static void main(String[] args) {
+
+             Employee emp = new Employee();
+		
+
+	}
+
+}

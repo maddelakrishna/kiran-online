@@ -1,0 +1,19 @@
+package classessandobjects;
+
+public class EmpDemo {
+
+	public static void main(String[] args) {
+
+             Employee emp = new Employee(); // default constructor
+            //emp.setEid(1010);
+             
+             
+             System.out.println(emp.getEid()+" "+emp.getName()+" "+emp.getSalary());
+		
+
+             
+             Employee emp1 = new Employee();
+             System.out.println(emp1.getEid()+" "+emp1.getName()+" "+emp1.getSalary());
+	}
+
+}

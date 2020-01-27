@@ -1,0 +1,19 @@
+package classessandobjects;
+
+public class EmpDemo {
+
+	public static void main(String[] args) {
+
+             Employee emp = new Employee();
+             emp.setEid(1010);
+             
+             
+             System.out.println(emp.getEid()+" "+emp.getName()+" "+emp.getSalary());
+		
+
+             
+             Employee emp1 = new Employee();
+             emp1.setEid(2010);
+	}
+
+}
